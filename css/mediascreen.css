@@ -1,0 +1,5 @@
+@media screen and (max-width:1650px){
+  header#header_inner,div#about01_wrap,div#about02_wrap,ul#partner_list,ul#member_list,ul#insta_list{
+    width:95%;
+  }
+}

@@ -1,0 +1,296 @@
+/* visual */
+section#visual_wrap{
+  width:100%; float:left; position:relative; left:0px; top:0px; overflow:hidden;
+}
+video{
+  width:100%;
+}
+/* ul#visual_list{
+  width:300%; height:100%;
+}
+ul#visual_list li{
+  float:left; width:33.33%; height:100%;
+}
+ul#visual_list li:nth-child(1){
+  background:url("/innisfree/images/visual02.jpg")no-repeat; background-size: cover; 
+}
+ul#visual_list li:nth-child(2){
+  background:url("/innisfree/images/visual01.jpg")no-repeat; background-size: cover; 
+}
+ul#visual_list li:nth-child(3){
+  background:url("/innisfree/images/visual03.jpg")no-repeat; background-size: cover;
+} */
+div#mouse{
+  width:30px; height:50px; border-radius:25px; border:solid 1px white; position:absolute; left:50%; margin-left:-15px; bottom:80px;
+}
+div#mouse span{
+  width:4px; height:10px; border-radius:4px; background: white; position: absolute; left:13px; top:12px;
+}
+/* visual */
+/* contents */
+div#contents_wrap{
+  width:100%; height:auto; float:left; overflow: hidden;
+}
+/* about */
+section#about_wrap{
+  width:100%; height:auto; float:left;
+}
+div#about01_wrap{
+  width:1650px; height:700px; margin: 190px auto;
+}
+div#about01{
+  width:100%; height:100%; margin:0px auto; position:relative; left:0px; top:0px;
+}
+div#about02_wrap{
+  width:1650px; height:1070px; margin:0px auto 250px auto;
+}
+div#about02{
+  width:100%; height:100%; margin:0px auto; position:relative; left:0px; top:0px;
+}
+p.about_vertical{
+  font:normal 18px "Merriweather"; height:20px; width:150px;
+}
+div#about01 p.about_vertical{
+  -webkit-transform:rotate(-90deg); position:absolute; left:-50px; top:350px;
+}
+div#about02 p.about_vertical{
+  -webkit-transform:rotate(90deg); position:absolute; right:-50px; top:520px;
+}
+p.about_title a{
+  font:normal 65px/75px "Iropke Batang"; text-decoration:none; color:black;
+}
+div#about01 p.about_title{
+  position:absolute; left:110px; top:350px; z-index:1; opacity:0;
+}
+div#about02 p.about_title{
+  position:absolute; right:110px; top:640px; text-align:right; z-index:1; opacity:0;
+}
+div#about01 p.about_title span{
+  background:#f1ecdd; display:block; width:570px; text-align:center; margin-left:-10px; margin-top:15px;
+}
+div#about02 p.about_title span{
+  width:530px; background:#f1ecdd; text-align:center; margin-left:-10px; display:block; margin-top:15px;
+}
+div#about01 p.about_text{
+  position:absolute; left:110px; top:610px; width:560px; text-align:justify; z-index:1; opacity:0;
+}
+div#about02 p.about_text{
+  position:absolute; right:110px; top:870px; width:420px; text-align:justify; z-index:1; opacity:0;
+}
+p.about_text a{
+  font:normal 18px/35px "Iropke Batang"; text-decoration:none; color:black;
+}
+div#about01 p.about_img{
+   width:40%; height:700px; background: url("/innisfree/images/insta03.jpg")no-repeat; position:absolute; right:0px; top:0px; background-size:cover;
+}
+div#about02 p.about_img{
+   width:65%; height:100%; background:url("/innisfree/images/about02.jpg")no-repeat; position:absolute; left:0px; top:0px; background-size:cover;
+}
+/* about */
+/* matcha */
+section#matcha_wrap{
+  width:100%; height:600px; float:left;
+}
+div#matcha{
+  width:45%; height:100%; float:left; background:url("/innisfree/images/matcha_bg.png")no-repeat; background-size:cover; position: relative; left:0px; top:0px;
+}
+p#matcha_img{
+  position: absolute; left:150px; top:-20px; width:140px; height:140px; background: url("/innisfree/images/logo_circle.png")no-repeat; background-size: contain;
+}
+p#matcha_title{
+  font:normal 28px/40px "Iropke Batang"; text-decoration: none; position: absolute; left:150px; top:170px;
+}
+p#matcha_title a{
+  text-decoration: none; color:black;
+}
+p#matcha_text{
+  font:normal 18px/35px "Iropke Batang"; position: absolute; left:150px; top:280px; width:420px; text-align:justify;
+}
+p#matcha_text a{
+  text-decoration: none; color:black;
+}
+div#video_wrap{
+  width:55%; height:100%; float:left;
+}
+div#video{
+  width:100%; height:100%;
+}
+embed{
+  width:100%; height:100%;
+}
+/* matcha*/
+/*product*/
+section#product{
+  width:100%; height:1100px; float:left; position: relative; left:0px; top:0px;
+}
+h2#product_title{
+  text-align:center; margin:170px auto 90px auto; font:normal 76px "Merriweather";
+}
+div#product_wrap{
+  width:1500px; height:700px; margin:0px auto; overflow:hidden; position:relative; left:0px; top:50px; opacity:0;
+}
+ul#product_list{
+  width:2500px; height:100%; position:relative; left:0px; top:0px;
+}
+ul#product_list li{
+  width:20%; height:900px; float:left; position: relative; left:0px; top:0px; opacity:0.5;
+}
+.product_bg{
+  width:200px; height:200px; background:#f7f1e5; border-radius:50%; position: absolute; left:50%; top:50%; margin-left:-100px; margin-top:-250px; opacity:0;
+}
+.bg_scale{
+  width:500px; height:500px; margin-left:-250px; margin-top:-450px; opacity:1; -webkit-transition:0.9s ease;
+}
+.product_img{
+  width:500px; height:500px; margin:0px auto; position: absolute; left:50%; top:0px; margin-left:-230px;
+}
+.product_name{
+  text-align: center; font:normal 34px "Iropke Batang"; position: absolute; top:440px; left:0px; width:100%; text-align: center; color:#8d6528
+}
+.product_text{
+  text-align: center; font:normal 18px/33px "Iropke Batang"; position: absolute; top:570px; left:0px; color: rgb(43, 43, 43); width:100%; text-align: center; opacity:0;
+}
+section#product>p{
+  width:80px; height:80px; background:#bba995; border-radius: 40px; position: absolute; left:50%; top:870px; opacity:0.5;
+}
+section#product>p>span{
+  position: absolute; left:4px; top:4px; width:80px; height:80px;
+}
+#product_prev{
+  margin-left:-260px;
+}
+#product_prev span{
+  background: url("/innisfree/images/product_prev.png")no-repeat;
+}
+#product_next{
+  margin-left:180px;
+}
+#product_next span{
+  background: url("/innisfree/images/product_next.png")no-repeat;
+}
+/*product*/
+/* partnership */
+section#member{
+  width:100%; height:1150px; float:left;
+}
+section#member a{
+  text-decoration: none;
+}
+h2#member_title{
+  text-align:center; margin:70px auto;
+}
+h2#member_title a{
+  font:normal 76px "Merriweather"; color: black; 
+}
+ul#member_list{
+  width:1650px; height:420px; margin:0px auto;
+}
+ul#member_list li{
+  width:16.66%; height:100%; float:left; position: relative; left:0px; top:0px;
+}
+p.member_bg{
+  background-color:rgba(221,238,228,0.7);/*rgba(221,238,228,0.7)#f1ecdd*/ width:200px; height:200px; border-radius:100px; margin:0px auto;
+}
+ul#member_list li:nth-child(1) p.member_img{
+  background: url("/innisfree/images/member01.png")no-repeat; background-size: cover;
+}
+ul#member_list li:nth-child(2) p.member_img{
+  background: url("/innisfree/images/member02.png")no-repeat; background-size: cover;
+}
+ul#member_list li:nth-child(3) p.member_img{
+  background: url("/innisfree/images/member03.png")no-repeat; background-size: cover;
+}
+ul#member_list li:nth-child(4) p.member_img{
+  background: url("/innisfree/images/member04.png")no-repeat; background-size: cover;
+}
+ul#member_list li:nth-child(5) p.member_img{
+  background: url("/innisfree/images/member05.png")no-repeat; background-size: cover;
+}
+ul#member_list li:nth-child(6) p.member_img{
+  background: url("/innisfree/images/member06.png")no-repeat; background-size: cover;
+}
+p.member_img{
+  width:170px; height:170px; position: absolute; left:50%; margin-left:-85px; top:14px;
+}
+p.member_text{
+  font:normal 24px "Iropke Batang"; margin-top:25px; display: block; text-align: center;
+}
+p.member_text a{
+  text-decoration: none; color: black;
+}
+p.member_text span{
+  font:normal 18px "Iropke Batang"; color: rgb(73, 73, 73);
+}
+div#member_bg{
+  width:100%; height:455px; float:left; background: url("/innisfree/images/membership.jpg")no-repeat fixed bottom; background-size: cover;
+}
+/* partnership */
+/* insta */
+section#insta{
+  height:770px; width:100%; float:left; 
+}
+h2#insta_title{
+  text-align:center; margin:50px auto 20px auto;
+}
+h2#insta_title a{
+  font:normal 76px "Merriweather"; color: black; text-decoration:none;
+}
+p#insta_id{
+  background:url("/innisfree/images/logo_circle.png")no-repeat; width:275px; height:40px; margin:0px auto; margin-bottom:60px; background-size: contain;
+}
+p#insta_id a{
+  font:normal 24px/40px "Merriweather"; color: black; text-decoration:none; text-indent:50px; display:block;
+}
+ul#insta_list{
+  width:1650px; margin:0px auto; height:390px;
+}
+ul#insta_list li{
+  width:22.5%; float:left; margin-right:3%; overflow: hidden;
+}
+ul#insta_list li:last-child{
+  margin-right:0px;
+}
+ul#insta_list p{
+  width:100%; height:100%; -webkit-transition: 0.2s ease; 
+}
+ul#insta_list li p:hover{
+  -webkit-transform: scale(1.2);
+}
+ul#insta_list li:nth-child(1) p{
+  background: url("/innisfree/images/insta01.jpg")no-repeat; background-size: cover;
+}
+ul#insta_list li:nth-child(2) p{
+  background: url("/innisfree/images/insta02.jpg")no-repeat; background-size: cover;
+}
+ul#insta_list li:nth-child(3) p{
+  background: url("/innisfree/images/insta03.jpg")no-repeat; background-size: cover;
+}
+ul#insta_list li:nth-child(4) p{
+  background: url("/innisfree/images/insta04.jpg")no-repeat; background-size: cover;
+}
+ul#insta_list li:nth-child(4){
+  margin-right:0px;
+}
+.insta_selected{
+  background:rgba(221,238,228,0.7)  ; text-align:center; line-height:390px; width:100%; height:100%;
+}
+.insta_selected i{
+  color:white; font-size:45px;
+}
+/* insta */
+
+#side_nav{
+  height:200px; width:50px; position: absolute; right:0px; top:2000px;
+}
+#side_nav ul{
+  height:100%; width:100%;
+}
+#side_nav li{
+  width:100%; height:25%; border-bottom:solid 1px #ffffff; box-sizing: border-box; text-align:center; background:#104138;
+}
+#side_nav li:last-child{
+  border-bottom:none;
+}
+#side_nav li a{
+  color:#ffffff; font:bold 23px/50px "MuseoModerno"; text-decoration: none;
+}
